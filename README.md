@@ -26,6 +26,7 @@ This dataset describes a complete year (from 01/07/2013 to 30/06/2014) of the tr
 
 chengzwk
 
+<!---
 ## Version History
 
 * 0.2
@@ -34,9 +35,6 @@ chengzwk
 * 0.1
     * Initial Release
 
-## License
-
-This project is licensed under the MIT License - see the LICENSE.md file for details
 
 ## Acknowledgments
 
@@ -46,3 +44,9 @@ Inspiration, code snippets, etc.
 * [dbader](https://github.com/dbader/readme-template)
 * [zenorocha](https://gist.github.com/zenorocha/4526327)
 * [fvcproductions](https://gist.github.com/fvcproductions/1bfc2d4aecb01a834b46)
+-->
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE.md file for details
+
