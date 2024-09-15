@@ -18,7 +18,9 @@ This dataset describes a complete year (from 01/07/2013 to 30/06/2014) of the tr
 
 ### Executing program
 
-* Run the notebook "exploratory_analysis.ipynb"
+**Exploratory Analysis on the original dataset**
+* To get a complete view of the jupyter notebook(incluidng the interactive maps), please copy the [github link of the notebook](https://github.com/chengzwk/Porto-taxi/blob/main/exploratory_analysis.ipynb) and paste it into [nbviewer](https://nbviewer.org), as folium maps are not rendered on GitHub natively.
+* To run the jupyter notebook, please download the original dataset ("train.csv") from the [dataset page](https://www.kaggle.com/datasets/crailtap/taxi-trajectory/data) and put it in the same directory as the .ipynb file.
 
 ## Author
 
