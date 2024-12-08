@@ -1,52 +1,70 @@
-# Analysis of taxi GPS data in Porto
+# Analysis of Taxi GPS Data in Porto  
 
-Find travel patterns for taxis in the city of Porto (Portugal) by analyzing taxi GPS data.
+This project explores travel patterns of taxis in Porto, Portugal, by analyzing their GPS data. The findings can help understand urban mobility and taxi route behaviors, providing insights for urban planning and transportation efficiency.
 
-## Description
+## Description  
 
-Firstly, we perform an exploratory analysis on the original dataset.
+The project uses a dataset containing one year of taxi GPS trajectories in Porto. The goal is to identify frequent routes of taxis and explore the change in taxis travel patterns across different scenarios (for instance, on weekdays and weekends). It involves exploratory data analysis, data preprocessing, map-matching, Natural Language Processing techniques, and route visualization using Python, geospatial and NLP libraries.
 
-## Dataset
+### Dataset
 This dataset describes a complete year (from 01/07/2013 to 30/06/2014) of the trajectories for all the 442 taxis running in the city of Porto, in Portugal 
 (i.e. one CSV file named "train.csv"). The data is available on [Kaggle datasets](https://www.kaggle.com/datasets/crailtap/taxi-trajectory/data). 
 
-## Getting Started
+## Getting Started  
 
-### Dependencies
+### Dependencies  
 
-* Jupyter notebook
+- Python 3.8+  
+- Jupyter Notebook  
+- Libraries
+  - pandas
+  - numpy
+  - folium
+  - matplotlib  
 
-### Executing program
+### Installing  
 
-**Exploratory Analysis on the original dataset**
-* To get a complete view of the jupyter notebook(incluidng the interactive maps), please copy the [github link of the notebook](https://github.com/chengzwk/Porto-taxi/blob/main/exploratory_analysis.ipynb) and paste it into [nbviewer](https://nbviewer.org), as folium maps are not rendered on GitHub natively.
-* To run the jupyter notebook, please download the original dataset ("train.csv") from the [dataset page](https://www.kaggle.com/datasets/crailtap/taxi-trajectory/data) and put it in the same directory as the .ipynb file.
+1. Clone this repository to your local machine:  
+   ```bash  
+   git clone https://github.com/chengzwk/Porto-taxi.git  
+   ```  
+2. Download the dataset [here](https://www.kaggle.com/datasets/crailtap/taxi-trajectory/data) and place `train.csv` in the project directory.  
 
-## Author
+### Executing Program  
 
-chengzwk
+1. Open the Jupyter Notebook:  
+   ```bash  
+   jupyter-notebook  
+   ```  
+2. Load the `exploratory_analysis.ipynb` file in Jupyter.  
+3. To view interactive maps, open the notebook using [nbviewer](https://nbviewer.org):  
+   - Copy the GitHub link to the notebook and paste it into the nbviewer tool.  
 
-<!---
-## Version History
+## Help  
 
-* 0.2
-    * Various bug fixes and optimizations
-    * See [commit change]() or See [release history]()
-* 0.1
-    * Initial Release
+For common issues, ensure that:  
+- Jupyter Notebook is installed and running.  
+- Required Python libraries are installed.  
 
+For installation:  
+```bash  
+pip install pandas numpy folium matplotlib  
+```  
 
-## Acknowledgments
+## Authors  
 
-Inspiration, code snippets, etc.
-* [awesome-readme](https://github.com/matiassingers/awesome-readme)
-* [PurpleBooth](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2)
-* [dbader](https://github.com/dbader/readme-template)
-* [zenorocha](https://gist.github.com/zenorocha/4526327)
-* [fvcproductions](https://gist.github.com/fvcproductions/1bfc2d4aecb01a834b46)
--->
+**chengzwk**  
+GitHub: [chengzwk](https://github.com/chengzwk)  
 
-## License
+## Version History  
 
-This project is licensed under the MIT License - see the LICENSE.md file for details
+* 0.1  
+    * Initial release  
 
+## License  
+
+This project is licensed under the MIT License - see the LICENSE.md file for details.  
+
+## Acknowledgments  
+
+- Dataset: [Kaggle](https://www.kaggle.com/datasets/crailtap/taxi-trajectory/data)  
